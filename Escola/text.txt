@@ -1,0 +1,50 @@
+var menuBtn = document.querySelector(".fa-bars")
+var menuBtn = document.querySelector(".navlist")
+
+menuBtn.onClick = function(){
+  menuBtn.classList.toggle("fa-xmark")
+  menuBtn.classList.toggle("active")
+
+}
+
+
+
+@media (min-width: 1940px){
+    .container{
+        max-width: 1920px;
+    }
+}
+@media (min-width: 1050px){
+    .menu{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -600%;
+        left: 0, right 0;
+        background-color: #01497c;
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        text-align: center;
+        transition: .2s ease-in-out;
+
+    }
+    .navlist li a{
+        display: block;
+        color: #fff;
+        margin: 15px 0;
+        transition: .4s ease-in-out;
+    }
+    .navlist li a:hover{
+        color: #a1cafe;
+    }
+    
+    .navlist li a:hover::before{
+        width: 0;
+    }
+    .navlist.active{
+        top: 100%;
+    }
+    
+}

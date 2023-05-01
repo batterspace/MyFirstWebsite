@@ -1,2 +1,2 @@
 # MyFirstWebsite
- Cherry-Gloss-Website
+ Repositorio craido para um projeto na escola.

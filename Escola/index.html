@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Cosmetic Store</title>
+</head>
+
+<body>
+    <section class="nav">
+        <a href="" class="logo"><img src="imagens/logo.jpg" alt=""></a>
+        <ul class="navlist">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Loja</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+    </section>
+    <!--HOME SECTION-->
+
+    <section class="Home">
+        <!--Swipper-->
+        <div class="swiper mySwiper home-swiper row container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide row flex">
+                    <div class="home-content">
+                        <div>
+                            <h1>A melhor loja de cosmeticos de Teofilo Otoni!!</h1>
+                            <p>Cuidar de você não é gasto, é um investimento para si propria!!!</p>
+                            <a href="" class="main-btn active"> Compre agora!</a>
+                        </div>
+                    </div>
+                    <div class="home-img row">
+                        <img src="/imagens/home(1).png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide row flex">
+                    <div class="home-content">
+                        <div>
+                            <h1>Na nossa loja você acha o melhor para sua beleza!!</h1>
+                            <p>Amor é bom, mas nossos cosmeticos não dão dor de cabeça</p>
+                            <a href="" class="main-btn active"> Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="home-img row">
+                        <img src="/imagens/home(2).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!------PRODUTC SECTION------->
+
+    <section class="products container">
+        <div class="row flex">
+            <div class="p-content">
+                <h3>Para Mulheres</h3>
+                <h5 id="produto-quantidade">+8000 Produtos</h5>
+            </div>
+            <div class="image"><a href=""><img src="imagens/women.jpg" alt=""></a></div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <h3>Para Homens</h3>
+                <h5 id="produto-quantidade">+3000 Produtos</h5>
+            </div>
+            <div class="image"><a href=""><img src="imagens/men.jpeg" alt=""></a></div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <h3>Para Crianças</h3>
+                <h5 id="produto-quantidade">1000+ Produtos</h5>
+            </div>
+            <div class="image"><a href=""><img src="imagens/chieldren.jpg" alt=""></a></div>
+        </div>
+    </section>
+
+    <!-----SWIPER PRODUCTS------>
+    <section>
+        <div class="swiper mySwiper p-swiper">
+            <div class="slider-content row">
+                <div class="heading">
+                    <h2>Ultimas vendas</h2>
+                    <p>Confira os ultimos produtos vendidos!!</p>
+                </div>
+                <div class="arrow row">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide column">
+                    <div class="s-img row">
+                        <img src="imagens/rimel.png" alt="">
+                        <div id="Quente" class="tag">Quente</div>
+                    </div>
+                    <div>
+                        <h4>Colossal Rimel</h4>
+                        <div class="price row">
+                            <h6><s>R$33,90</s></h6>
+                        </div>
+                    </div>
+                    <div class="btns row">
+                        <a href="" class="main-btn">Adicionar ao carrinho</a>
+                        <div class="fav row">
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="s-img row">
+                        <img src="imagens/blush.png" alt="">
+                        <div id="Quente" class="tag">Quente</div>
+                    </div>
+                    <div>
+                        <h4>Mary kay Blush</h4>
+                        <div class="price row">
+                            <h6><s>R$35,90</s></h6>
+                        </div>
+                    </div>
+                    <div class="btns row">
+                        <a href="" class="main-btn">Adicionar ao carrinho</a>
+                        <div class="fav row">
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="s-img row">
+                        <img src="imagens/delineador.png" alt="">
+                        <div id="Quente" class="tag">Quente</div>
+                    </div>
+                    <div>
+                        <h4>Mary kay Delineador</h4>
+                        <div class="price row">
+                            <h6><s>R$45,90</s></h6>
+                        </div>
+                    </div>
+                    <div class="btns row">
+                        <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                        <div class="fav row">
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="s-img row">
+                        <img src="imagens/corretivo.png" alt="">
+                        <div id="Quente" class="tag">Quente</div>
+                    </div>
+                    <div>
+                        <h4>Terry Corretivo</h4>
+                        <div class="price row">
+                            <h6><s>R$199,90</s></h6>
+                        </div>
+                    </div>
+                    <div class="btns row">
+                        <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                        <div class="fav row">
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="s-img row">
+                        <img src="imagens/iluminador.jpeg" alt="">
+                        <div id="Quente" class="tag">Quente</div>
+                    </div>
+                    <div>
+                        <h4>Mary kay iluminador</h4>
+                        <div class="price row">
+                            <h6><s>R$40,00</s></h6>
+                        </div>
+                    </div>
+                    <div class="btns row">
+                        <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                        <div class="fav row">
+                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- ABOUT SECTION --------->
+
+
+    </section>
+    <section class="about">
+        <div class="about-content row flex container">
+            <div class="a-image row"><img src="imagens/about.avif" alt=""></div> <!--COLOCAR A IMAGEM DO ABOUT-->
+            <div class="content">
+                <h2>Sobre os nossos produtos</h2>
+                <p>Na Cherry Gloss os nossos produtos são de altissima qualidade, so aqui você adquire produtos das melhores marcas com os melhores preços do mercado!!!</p>
+                <a href="">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!------- OFFER SECTION --------->
+
+    <section class="offer swiper mySwiper o-swiper container">
+        <div class="slider-content row">
+            <div class="heading">
+                <h2>Produtos com desconto</h2>
+                <p>Nossos produtos estão com um descontinho especial esperando por você!!!.</p>
+            </div>
+            <div class="arrow row">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="imagens/rimel.png" alt="">
+                    <div id="Quente" class="tag">Quente</div>
+                </div>
+                <div>
+                    <h4>Colossal Rimel</h4>
+                    <div class="price row">
+                        <h6><s>R$33,90</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Adicionar ao carrinho</a>
+                    <div class="fav row">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="imagens/blush.png" alt="">
+                    <div id="Quente" class="tag">Quente</div>
+                </div>
+                <div>
+                    <h4>Mary kay Blush</h4>
+                    <div class="price row">
+                        <h6><s>R$35,90</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Adicionar ao carrinho</a>
+                    <div class="fav row">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="imagens/delineador.png" alt="">
+                    <div id="Quente" class="tag">Quente</div>
+                </div>
+                <div>
+                    <h4>Mary kay Delineador</h4>
+                    <div class="price row">
+                        <h6>R$45,90</h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                    <div class="fav row">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="imagens/corretivo.png" alt="">
+                    <div id="Quente" class="tag">Quente</div>
+                </div>
+                <div>
+                    <h4>Terry Corretivo</h4>
+                    <div class="price row">
+                        <h6><s>R$199,90</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                    <div class="fav row">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="imagens/iluminador.jpeg" alt="">
+                    <div id="Quente" class="tag">Quente</div>
+                </div>
+                <div>
+                    <h4>Mary kay iluminador</h4>
+                    <div class="price row">
+                        <h6><s>R$39,90</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn"> Adicionar ao carrinho</a>
+                    <div class="fav row">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------- TESTIMONIAL SECTION------------>
+
+    <section class="testimonial">
+        <div class="row flex container">
+            <div class="swiper mySwiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image row"><img src="imagens/t2.jpeg" alt=""></div>
+                        <fieldset>
+                            <legend><i class="fa-solid fa-quote-left"></i></legend>
+                            <div class="quote-column">
+                                <p>Eu adquiri um delineado na Cherry Gloss e desde então é a unica loja que eu compro</p>
+                                <h4>Luana Costa</h4>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image row"><img src="imagens/t1.jpg" alt=""></div>
+                        <fieldset>
+                            <legend><i class="fa-solid fa-quote-left"></i></legend>
+                            <div class="quote-column">
+                                <p>Entrega super rapida!!!, e os produtos são de otima qualidade </p>
+                                <h4>Mariana Ribeiro</h4>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="slider-content row">
+                    <div class="arrow row">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Veja o feedback de alguns dos nossos clientes.</h2>
+                <p>Aqui na Cherry Gloss você é o mais importante, nos comprometemos ao maximo para satisfazer as necessidades dos nossos clientes
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------ SUBSCRIBE SECTION--------->
+
+    <section class="subscribe">
+        <div class="subscriber row container">
+            <div class="subscribe-content">
+                <h2>Siga-nos para saber as ultimas novidades!!!</h2>
+                <p>Se increva no nosso site para não perder nenhuma promoção!!
+                </p>
+                <form action="" class="row">
+                    <input type="email" id="" placeholder="Digite seu email">
+                    <button type="button" class="main-btn active">Inscreva-se</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!------ LOGO SECTION--------->
+    <section class="logos">
+        <div class="logo-content column container">
+            <div class="row"><img src="imagens/l1.png" alt=""></div>
+            <div class="row"><img src="imagens/l2.jpg" alt=""></div>
+            <div class="row"><img src="imagens/l3.jpg" alt=""></div>
+            <div class="row"><img src="imagens/l4.png" alt=""></div>
+            <div class="row"><img src="imagens/l5.jpg" alt=""></div>
+            <div class="row"><img src="imagens/l6.jpg" alt=""></div>
+        </div>
+    </section>
+
+
+
+    <!------ GALlERY SECTION--------->
+
+    <section class="gallery">
+        <div class="gallery-content row flex">
+            <div class="content">
+                <h2>Siga-nos nas nossas redes sociais!!!</h2>
+                <p>Siga-nos nas nossas redes Sociais para ficar por dentro dos lançamentos!!!</p>
+            </div>
+            <div class="gallery-images column">
+                <div class="row"><img src="imagens/g1.jpeg" alt=""></div>                     
+                <div class="row"><img src="imagens/g2.jpg" alt=""></div>        
+                <div class="row"><img src="imagens/g3.jpg" alt=""></div>
+                <div class="row"><img src="imagens/g4.jpg" alt=""></div>
+                <div class="row"><img src="imagens/g5.jpg" alt=""></div>
+                <div class="row"><img src="imagens/g6.jpg" alt=""></div>
+                <div class="row"><img src="imagens/g7.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+<!------ FOOTER SECTION--------->
+
+<footer>
+    <div class="container">
+        <div class="footer row">
+            <div class="footer-content">
+                <a href="" class="logo"><img src="imagens/logo.jpg" alt=""></a>                
+                 <div class="social-links row">
+                    <a href="" class="row"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/cherry.glos_/" class="row"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="row"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="row"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="row"><i class="fa-brands fa-github"></i></a>
+                 </div>
+            </div>
+            <div>
+                <h3>Links Rapidos</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Loja</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Links Importantes</h3>
+                <ul>
+                    <li><a href="#">Minha conta</a></li>
+                    <li><a href="#">Meu carrinho</a></li>
+                    <li><a href="#">Minha lista de desejos</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Nos contate</h3>
+                <a href=""><i class="fa-solid fa-home">Brasil, Minas Gerais, Teofilo Otoni</i></a>
+                <a href=""><i class="fa-solid fa-phone">+33984432180</i></a>
+                <a href=""><i class="fa-solid fa-envelope">CherryGlossIndustry@gmail.com</i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">Created by <a href="">Guilherme Rodrigues</a> with 2023 all rights reserved.</div>
+    </div>
+</footer>
+
+
+    <!------- SWIPER JS -------->
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
